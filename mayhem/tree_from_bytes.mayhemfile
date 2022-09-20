@@ -1,0 +1,7 @@
+project: resvg
+target: tree-from-bytes
+
+cmds:
+  - cmd: /tree_from_bytes
+  - cmd: /tree_from_bytes_no_inst @@
+    libfuzzer: false
